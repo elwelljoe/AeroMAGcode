@@ -1,0 +1,42 @@
+$date
+	Sun Oct 18 07:12:30 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test $end
+$var wire 16 ! LD [15:0] $end
+$var reg 16 " SW [15:0] $end
+$scope module uus $end
+$var wire 16 # LD [15:0] $end
+$var wire 16 $ SW [15:0] $end
+$upscope $end
+$scope module uut $end
+$var wire 16 % LD [15:0] $end
+$var wire 16 & SW [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 &
+bx000000000000000 %
+b0 $
+bx000000000000000 #
+b0 "
+bx000000000000000 !
+$end
+#5
+bx000001000010111 !
+bx000001000010111 #
+bx000001000010111 %
+b1000010111 "
+b1000010111 $
+b1000010111 &
+#10

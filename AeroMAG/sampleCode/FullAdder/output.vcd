@@ -1,0 +1,104 @@
+$date
+	Sun Oct 18 10:45:01 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module main $end
+$var wire 2 ! LD [1:0] $end
+$var reg 3 " SW [2:0] $end
+$scope module uut $end
+$var wire 1 # Co $end
+$var wire 1 $ D $end
+$var wire 1 % E $end
+$var wire 1 & F $end
+$var wire 3 ' SW [2:0] $end
+$var wire 1 ( Sum $end
+$var wire 2 ) LD [1:0] $end
+$var wire 1 * C $end
+$var wire 1 + B $end
+$var wire 1 , A $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0,
+0+
+0*
+b0 )
+0(
+b0 '
+0&
+0%
+0$
+0#
+b0 "
+b0 !
+$end
+#5
+b1 !
+b1 )
+1(
+1$
+1,
+b1 "
+b1 '
+#10
+0,
+1+
+b10 "
+b10 '
+#15
+1#
+b10 !
+b10 )
+0(
+1&
+0$
+1,
+b11 "
+b11 '
+#20
+0#
+0&
+b1 !
+b1 )
+1(
+0,
+0+
+1*
+b100 "
+b100 '
+#25
+1#
+b10 !
+b10 )
+0(
+1%
+1$
+1,
+b101 "
+b101 '
+#30
+0,
+1+
+b110 "
+b110 '
+#35
+b11 !
+b11 )
+1(
+0%
+1&
+0$
+1,
+b111 "
+b111 '
+#40

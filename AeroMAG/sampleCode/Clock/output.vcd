@@ -1,0 +1,215 @@
+$date
+	Sun Oct 18 10:44:29 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module main $end
+$var wire 1 ! yellow $end
+$var wire 1 " red $end
+$var wire 1 # green $end
+$var wire 4 $ LD [3:0] $end
+$var reg 2 % SW [1:0] $end
+$var reg 1 & clk $end
+$scope module uut $end
+$var wire 2 ' SW [1:0] $end
+$var wire 1 & clk $end
+$var wire 1 ! yellow $end
+$var wire 1 " red $end
+$var wire 1 # green $end
+$var wire 1 ( SCLK $end
+$var wire 4 ) LD [3:0] $end
+$var reg 2 * state [1:0] $end
+$scope module slow $end
+$var wire 1 & CLK $end
+$var reg 1 ( SCLK $end
+$var reg 29 + count [28:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 +
+b0 *
+b0 )
+0(
+b10 '
+0&
+b10 %
+b0 $
+0#
+1"
+0!
+$end
+#5
+b1 +
+1&
+#10
+0&
+#15
+b10 +
+1&
+#20
+0&
+#25
+b11 +
+1&
+#30
+0&
+#35
+b100 +
+1&
+#40
+0&
+#45
+b101 +
+1&
+#50
+0&
+#55
+b110 +
+1&
+#60
+0&
+#65
+b111 +
+1&
+#70
+0&
+#75
+0"
+1#
+b1 *
+b1010 $
+b1010 )
+1(
+b0 +
+1&
+#80
+0&
+#85
+b1 +
+1&
+#90
+0&
+#95
+b10 +
+1&
+#100
+0&
+#105
+b11 +
+1&
+#110
+0&
+#115
+b100 +
+1&
+#120
+0&
+#125
+b101 +
+1&
+#130
+0&
+#135
+b110 +
+1&
+#140
+0&
+#145
+b111 +
+1&
+#150
+0&
+#155
+b10 $
+b10 )
+0(
+b0 +
+1&
+#160
+0&
+#165
+b1 +
+1&
+#170
+0&
+#175
+b10 +
+1&
+#180
+0&
+#185
+b11 +
+1&
+#190
+0&
+#195
+b100 +
+1&
+#200
+0&
+#205
+b101 +
+1&
+#210
+0&
+#215
+b110 +
+1&
+#220
+0&
+#225
+b111 +
+1&
+#230
+0&
+#235
+1!
+0#
+b10 *
+b1100 $
+b1100 )
+1(
+b0 +
+1&
+#240
+0&
+#245
+b1 +
+1&
+#250
+0&
+#255
+b10 +
+1&
+#260
+0&
+#265
+b11 +
+1&
+#270
+0&
+#275
+b100 +
+1&
+#280
+0&
+#285
+b101 +
+1&
+#290
+0&
+#295
+b110 +
+1&
+#300
+0&

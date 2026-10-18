@@ -1,0 +1,64 @@
+#! /usr/bin/vvp
+:ivl_version "12.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x6072dfb39b50 .scope module, "main" "main" 2 1;
+ .timescale 0 0;
+v0x6072dfb4c0b0_0 .net "LD", 0 0, L_0x6072dfb4c830;  1 drivers
+v0x6072dfb4c150_0 .var "SW", 3 0;
+v0x6072dfb4c220_0 .net "temp", 0 0, L_0x6072dfb4c990;  1 drivers
+S_0x6072dfb39ce0 .scope module, "uut" "gated_latch" 2 6, 3 1 0, S_0x6072dfb39b50;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "SW";
+    .port_info 1 /OUTPUT 1 "LD";
+    .port_info 2 /OUTPUT 1 "temp";
+L_0x6072dfb4c320 .functor NAND 1, L_0x6072dfb4c420, L_0x6072dfb4c510, C4<1>, C4<1>;
+L_0x6072dfb4c600 .functor NAND 1, L_0x6072dfb4c670, L_0x6072dfb4c760, C4<1>, C4<1>;
+L_0x6072dfb4c830 .functor NOR 1, L_0x6072dfb4c320, L_0x6072dfb4c990, C4<0>, C4<0>;
+L_0x6072dfb4c990 .functor NOR 1, L_0x6072dfb4c830, L_0x6072dfb4c600, C4<0>, C4<0>;
+v0x6072dfb27a00_0 .net "LD", 0 0, L_0x6072dfb4c830;  alias, 1 drivers
+v0x6072dfb4b960_0 .net "Q", 0 0, L_0x6072dfb4c320;  1 drivers
+v0x6072dfb4ba20_0 .net "Q_", 0 0, L_0x6072dfb4c600;  1 drivers
+v0x6072dfb4bac0_0 .net "SW", 3 0, v0x6072dfb4c150_0;  1 drivers
+v0x6072dfb4bba0_0 .net *"_ivl_1", 0 0, L_0x6072dfb4c420;  1 drivers
+v0x6072dfb4bcd0_0 .net *"_ivl_3", 0 0, L_0x6072dfb4c510;  1 drivers
+v0x6072dfb4bdb0_0 .net *"_ivl_5", 0 0, L_0x6072dfb4c670;  1 drivers
+v0x6072dfb4be90_0 .net *"_ivl_7", 0 0, L_0x6072dfb4c760;  1 drivers
+v0x6072dfb4bf70_0 .net "temp", 0 0, L_0x6072dfb4c990;  alias, 1 drivers
+L_0x6072dfb4c420 .part v0x6072dfb4c150_0, 0, 1;
+L_0x6072dfb4c510 .part v0x6072dfb4c150_0, 2, 1;
+L_0x6072dfb4c670 .part v0x6072dfb4c150_0, 1, 1;
+L_0x6072dfb4c760 .part v0x6072dfb4c150_0, 2, 1;
+    .scope S_0x6072dfb39b50;
+T_0 ;
+    %vpi_call 2 13 "$dumpfile", "output.vcd" {0 0 0};
+    %vpi_call 2 14 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x6072dfb39b50 {0 0 0};
+    %pushi/vec4 6, 0, 4;
+    %store/vec4 v0x6072dfb4c150_0, 0, 4;
+    %delay 5, 0;
+    %pushi/vec4 7, 0, 4;
+    %store/vec4 v0x6072dfb4c150_0, 0, 4;
+    %delay 5, 0;
+    %pushi/vec4 6, 0, 4;
+    %store/vec4 v0x6072dfb4c150_0, 0, 4;
+    %delay 5, 0;
+    %pushi/vec4 0, 0, 4;
+    %store/vec4 v0x6072dfb4c150_0, 0, 4;
+    %delay 5, 0;
+    %pushi/vec4 6, 0, 4;
+    %store/vec4 v0x6072dfb4c150_0, 0, 4;
+    %delay 5, 0;
+    %vpi_call 2 31 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "main.v";
+    "module.v";

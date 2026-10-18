@@ -1,0 +1,38 @@
+$date
+	Sun Oct 18 07:29:00 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module td $end
+$var wire 8 ! LD [7:0] $end
+$var reg 8 " SW [7:0] $end
+$var reg 8 # key [7:0] $end
+$scope module uut $end
+$var wire 8 $ SW [7:0] $end
+$var wire 8 % key [7:0] $end
+$var wire 8 & LD [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10110 &
+b0 %
+b10110 $
+b0 #
+b10110 "
+b10110 !
+$end
+#5
+b1001101 !
+b1001101 &
+b1011011 #
+b1011011 %
+#10

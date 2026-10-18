@@ -1,0 +1,69 @@
+#! /home/tristenw/Documents/School_Work/seniorDesign/oss-cad-suite/bin/vvp
+:ivl_version "14.0 (devel)" "(s20260301-583-g5d7612759-dirty)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/home/tristenw/Documents/School_Work/seniorDesign/oss-cad-suite/lib/ivl/system.vpi";
+:vpi_module "/home/tristenw/Documents/School_Work/seniorDesign/oss-cad-suite/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/home/tristenw/Documents/School_Work/seniorDesign/oss-cad-suite/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/home/tristenw/Documents/School_Work/seniorDesign/oss-cad-suite/lib/ivl/v2005_math.vpi";
+:vpi_module "/home/tristenw/Documents/School_Work/seniorDesign/oss-cad-suite/lib/ivl/va_math.vpi";
+S_0x555576dd9460 .scope module, "test" "test" 2 1;
+ .timescale 0 0;
+RS_0x7276975cf018 .resolv tri, L_0x555576ded980, L_0x555576deda30, L_0x555576dedce0, L_0x555576dede20, L_0x555576dedfe0, L_0x555576dee1b0;
+v0x555576ded760_0 .net8 "LD", 15 0, RS_0x7276975cf018;  6 drivers
+v0x555576ded870_0 .var "SW", 15 0;
+S_0x555576dd6ff0 .scope module, "uus" "ander" 2 11, 3 12 0, S_0x555576dd9460;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "SW";
+    .port_info 1 /OUTPUT 16 "LD";
+L_0x555576dee250 .functor AND 1, L_0x555576dee340, L_0x555576dee480, L_0x555576dee570, C4<1>;
+v0x555576dd7220_0 .net8 "LD", 15 0, RS_0x7276975cf018;  alias, 6 drivers
+v0x555576deca60_0 .net "SW", 15 0, v0x555576ded870_0;  1 drivers
+v0x555576decb40_0 .net *"_ivl_11", 0 0, L_0x555576dee080;  1 drivers
+v0x555576decc00_0 .net *"_ivl_12", 0 0, L_0x555576dee250;  1 drivers
+v0x555576decce0_0 .net *"_ivl_15", 0 0, L_0x555576dee340;  1 drivers
+v0x555576dece10_0 .net *"_ivl_17", 0 0, L_0x555576dee480;  1 drivers
+v0x555576decef0_0 .net *"_ivl_19", 0 0, L_0x555576dee570;  1 drivers
+v0x555576decfd0_0 .net *"_ivl_3", 0 0, L_0x555576dedd80;  1 drivers
+v0x555576ded0b0_0 .net *"_ivl_7", 0 0, L_0x555576dedec0;  1 drivers
+L_0x555576dedce0 .part/pv L_0x555576dedd80, 0, 1, 16;
+L_0x555576dedd80 .part v0x555576ded870_0, 0, 1;
+L_0x555576dede20 .part/pv L_0x555576dedec0, 1, 1, 16;
+L_0x555576dedec0 .part v0x555576ded870_0, 1, 1;
+L_0x555576dedfe0 .part/pv L_0x555576dee080, 2, 1, 16;
+L_0x555576dee080 .part v0x555576ded870_0, 2, 1;
+L_0x555576dee1b0 .part/pv L_0x555576dee250, 15, 1, 16;
+L_0x555576dee340 .part v0x555576ded870_0, 2, 1;
+L_0x555576dee480 .part v0x555576ded870_0, 1, 1;
+L_0x555576dee570 .part v0x555576ded870_0, 0, 1;
+S_0x555576ded1f0 .scope module, "uut" "inverter" 2 6, 3 1 0, S_0x555576dd9460;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "SW";
+    .port_info 1 /OUTPUT 16 "LD";
+L_0x555576ded980 .functor BUFZ 16, v0x555576ded870_0, C4<0000000000000000>, C4<0000000000000000>, C4<0000000000000000>;
+L_0x555576dedad0 .functor NOT 1, L_0x555576dedb60, C4<0>, C4<0>, C4<0>;
+v0x555576ded3d0_0 .net8 "LD", 15 0, RS_0x7276975cf018;  alias, 6 drivers
+v0x555576ded4b0_0 .net "SW", 15 0, v0x555576ded870_0;  alias, 1 drivers
+v0x555576ded550_0 .net *"_ivl_2", 0 0, L_0x555576dedad0;  1 drivers
+v0x555576ded620_0 .net *"_ivl_5", 0 0, L_0x555576dedb60;  1 drivers
+L_0x555576deda30 .part/pv L_0x555576dedad0, 15, 1, 16;
+L_0x555576dedb60 .part v0x555576ded870_0, 0, 1;
+    .scope S_0x555576dd9460;
+T_0 ;
+    %vpi_call 2 17 "$dumpfile", "output.vcd" {0 0 0};
+    %vpi_call 2 18 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x555576dd9460 {0 0 0};
+    %pushi/vec4 0, 0, 16;
+    %store/vec4 v0x555576ded870_0, 0, 16;
+    %delay 5, 0;
+    %pushi/vec4 535, 0, 16;
+    %store/vec4 v0x555576ded870_0, 0, 16;
+    %delay 5, 0;
+    %vpi_call 2 26 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "testbench.v";
+    "module.v";
