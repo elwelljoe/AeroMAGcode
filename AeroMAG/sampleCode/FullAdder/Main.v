@@ -1,7 +1,9 @@
 module main;
+    //sets input and output for passing to the module
     reg [2:0] SW;
     wire [1:0] LD;
 
+    //calls function
     fullAdder uut(
         .SW(SW),
         .LD(LD)

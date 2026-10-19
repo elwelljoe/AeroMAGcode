@@ -1,6 +1,7 @@
 module fullAdder (
-    input [2:0] SW,
-    output [1:0] LD
+    //defines input, output, and bit size
+    input [2:0] SW, //3 bits
+    output [1:0] LD //2 bits
 );
     //define one bit editable values
     wire A, B, C, D, E, F;

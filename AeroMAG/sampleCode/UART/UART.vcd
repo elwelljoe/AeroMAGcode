@@ -1,0 +1,102 @@
+$date
+	Mon Oct 19 09:17:27 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module main $end
+$var wire 1 ! tx_out $end
+$var wire 1 " tx_empty $end
+$var wire 1 # rx_empty $end
+$var wire 8 $ rx_data [7:0] $end
+$var reg 1 % ld_tx_data $end
+$var reg 1 & reset $end
+$var reg 1 ' rx_clk $end
+$var reg 1 ( rx_enable $end
+$var reg 1 ) rx_in $end
+$var reg 1 * tx_clk $end
+$var reg 8 + tx_data [7:0] $end
+$var reg 1 , tx_enable $end
+$var reg 1 - uld_rx_data $end
+$scope module uut $end
+$var wire 1 % ld_tx_data $end
+$var wire 1 & reset $end
+$var wire 1 . rx_clk $end
+$var wire 1 ( rx_enable $end
+$var wire 1 ) rx_in $end
+$var wire 1 / tx_clk $end
+$var wire 8 0 tx_data [7:0] $end
+$var wire 1 , tx_enable $end
+$var wire 1 - uld_rx_data $end
+$var reg 1 1 clk $end
+$var reg 1 2 rx_busy $end
+$var reg 4 3 rx_cnt [3:0] $end
+$var reg 1 4 rx_d1 $end
+$var reg 1 5 rx_d2 $end
+$var reg 8 6 rx_data [7:0] $end
+$var reg 1 # rx_empty $end
+$var reg 1 7 rx_frame_err $end
+$var reg 1 8 rx_over_run $end
+$var reg 8 9 rx_reg [7:0] $end
+$var reg 4 : rx_sample_cnt [3:0] $end
+$var reg 4 ; tx_cnt [3:0] $end
+$var reg 1 " tx_empty $end
+$var reg 1 ! tx_out $end
+$var reg 1 < tx_over_run $end
+$var reg 8 = tx_reg [7:0] $end
+$scope module a $end
+$var wire 1 1 CLK $end
+$var reg 1 > SCLK $end
+$var reg 29 ? count [28:0] $end
+$upscope $end
+$scope module b $end
+$var wire 1 1 CLK $end
+$var reg 1 @ SCLK $end
+$var reg 29 A count [28:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 A
+0@
+b0 ?
+0>
+bx =
+x<
+bx ;
+bx :
+bx 9
+x8
+x7
+bx 6
+x5
+x4
+bx 3
+x2
+x1
+bx 0
+x/
+x.
+1-
+x,
+bx +
+x*
+x)
+1(
+x'
+0&
+x%
+bx $
+x#
+x"
+x!
+$end
+#500

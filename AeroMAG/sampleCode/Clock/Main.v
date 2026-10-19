@@ -27,7 +27,7 @@ module main;
 
         //generic state for sw to allow cycling of lights
         SW = 2'b10;
-        //ensures the program lasts long enough
+        //sets the simulation time to 300 seconds
         #300;
 
         //stops the collection of data

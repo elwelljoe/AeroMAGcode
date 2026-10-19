@@ -1,9 +1,11 @@
 module encoder(
-    input [7:0] SW,
+    //declairs the inputs and outputs and their sizes
+    input [7:0] SW, //8 bits
     input [7:0] key,
     output [7:0] LD
 
 );
+    //exclusive or for each led bit to encode the data
     xor x1(LD[0], key[0], SW[0]);
     xor x2(LD[1], key[1], SW[1]);
     xor x3(LD[2], key[2], SW[2]);
