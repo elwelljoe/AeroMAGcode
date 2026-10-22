@@ -1,5 +1,5 @@
 $date
-	Sun Oct 18 07:29:00 2026
+	Tue Oct 20 12:36:26 2026
 $end
 $version
 	Icarus Verilog
@@ -7,7 +7,7 @@ $end
 $timescale
 	1s
 $end
-$scope module td $end
+$scope module main $end
 $var wire 8 ! LD [7:0] $end
 $var reg 8 " SW [7:0] $end
 $var reg 8 # key [7:0] $end
