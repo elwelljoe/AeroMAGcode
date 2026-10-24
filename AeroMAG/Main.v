@@ -4,7 +4,7 @@ module main(
     output [7:0] led,
     inout [26:0] gp
 );
-    wire power;
+    wire power = 1;
     wire test;
 
     startup S1(
@@ -13,11 +13,11 @@ module main(
         .test(test)
     );
 
-    fpga_power P1(
-        .clk(clk_25mhz),
-        .power(power),
-        .test(test)
-    );
+    // fpga_power P1(
+    //     .clk(clk_25mhz),
+    //     .power(power),
+    //     .test(test)
+    // );
 
     inpt I1(
         .clk(clk_25mhz),
