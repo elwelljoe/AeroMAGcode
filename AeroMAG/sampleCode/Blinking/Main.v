@@ -7,7 +7,7 @@ module blinking(
     reg [23:0] timer;
     initial timer = 24'd0;
 
-    initial led = 0;g
+    initial led = 0;
 
     //main loop
     always @(posedge clk_25mhz) begin
