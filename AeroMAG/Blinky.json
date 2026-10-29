@@ -21530,7 +21530,7 @@
       "attributes": {
         "hdlname": "blinky",
         "top": "00000000000000000000000000000001",
-        "src": "Blinky.v:1.1-33.10"
+        "src": "Blinky.v:1.1-39.10"
       },
       "ports": {
         "clk_25mhz": {
@@ -21730,7 +21730,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:34.100-34.162"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:34.100-34.162"
           },
           "port_directions": {
             "CE": "input",
@@ -21759,7 +21759,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:34.100-34.162"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:34.100-34.162"
           },
           "port_directions": {
             "CE": "input",
@@ -21788,7 +21788,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:36.102-36.164"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:36.102-36.164"
           },
           "port_directions": {
             "CE": "input",
@@ -21817,7 +21817,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:36.102-36.164"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:36.102-36.164"
           },
           "port_directions": {
             "CE": "input",
@@ -21846,7 +21846,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:34.100-34.162"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:34.100-34.162"
           },
           "port_directions": {
             "CE": "input",
@@ -21875,7 +21875,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:34.100-34.162"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:34.100-34.162"
           },
           "port_directions": {
             "CE": "input",
@@ -22413,7 +22413,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -22455,7 +22455,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -22497,7 +22497,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -22539,7 +22539,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -22581,7 +22581,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -22623,7 +22623,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -22665,7 +22665,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -22707,7 +22707,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -22749,7 +22749,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -22791,7 +22791,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -22833,7 +22833,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -22875,7 +22875,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -22917,7 +22917,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -22959,7 +22959,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4"
           },
           "port_directions": {
             "A0": "input",
@@ -23028,7 +23028,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23056,7 +23056,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23084,7 +23084,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23112,7 +23112,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23140,7 +23140,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23168,7 +23168,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23196,7 +23196,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23224,7 +23224,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23252,7 +23252,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23280,7 +23280,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23308,7 +23308,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23336,7 +23336,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23364,7 +23364,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23392,7 +23392,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23420,7 +23420,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23448,7 +23448,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23476,7 +23476,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23504,7 +23504,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23532,7 +23532,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23560,7 +23560,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23588,7 +23588,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23616,7 +23616,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23644,7 +23644,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23672,7 +23672,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23700,7 +23700,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23728,7 +23728,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23756,7 +23756,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "Blinky.v:15.5-29.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
+            "src": "Blinky.v:18.5-34.8|/usr/bin/../share/yosys/ecp5/cells_map.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23943,21 +23943,21 @@
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
-            "src": "Blinky.v:2.16-2.25"
+            "src": "Blinky.v:2.11-2.20"
           }
         },
         "led": {
           "hide_name": 0,
           "bits": [ 3, "0", 4, 5, 6, 7, 8, 6 ],
           "attributes": {
-            "src": "Blinky.v:3.23-3.26"
+            "src": "Blinky.v:3.18-3.21"
           }
         },
         "state": {
           "hide_name": 0,
           "bits": [ 3, "0", 4, 5, 6, 7, 8, 6 ],
           "attributes": {
-            "src": "Blinky.v:13.15-13.20"
+            "src": "Blinky.v:15.15-15.20"
           }
         },
         "state_LUT4_A_3_Z": {
@@ -24082,7 +24082,7 @@
           "bits": [ 11, 13, 19, 18, 17, 14 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "Blinky.v:0.0-0.0|Blinky.v:18.13-24.20|/usr/bin/../share/yosys/techmap.v:576.21-576.22"
+            "src": "Blinky.v:0.0-0.0|Blinky.v:22.13-28.20|/usr/bin/../share/yosys/techmap.v:576.21-576.22"
           }
         },
         "state_TRELLIS_FF_Q_DI_PFUMX_Z_BLUT": {
@@ -24096,7 +24096,7 @@
           "hide_name": 0,
           "bits": [ 43, 41, 40, 48, 47, 46, 45, 35, 34, 33, 32, 39, 38, 37, 36, 62, 61, 60, 59, 58, 57, 56, 55, 44, 51, 50, 49 ],
           "attributes": {
-            "src": "Blinky.v:6.16-6.21"
+            "src": "Blinky.v:7.16-7.21"
           }
         },
         "timer_CCU2C_B0_10_COUT": {
@@ -24104,7 +24104,7 @@
           "bits": [ 72 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "timer_CCU2C_B0_11_COUT": {
@@ -24112,7 +24112,7 @@
           "bits": [ 71 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "timer_CCU2C_B0_12_COUT": {
@@ -24120,7 +24120,7 @@
           "bits": [ 75 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "timer_CCU2C_B0_13_COUT": {
@@ -24128,7 +24128,7 @@
           "bits": [ 80 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "timer_CCU2C_B0_13_S0": {
@@ -24143,7 +24143,7 @@
           "bits": [ 64 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "timer_CCU2C_B0_2_COUT": {
@@ -24151,7 +24151,7 @@
           "bits": [ 68 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "timer_CCU2C_B0_3_COUT": {
@@ -24159,7 +24159,7 @@
           "bits": [ 83 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "timer_CCU2C_B0_4_COUT": {
@@ -24167,7 +24167,7 @@
           "bits": [ 89 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13",
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13",
             "unused_bits": "0 "
           }
         },
@@ -24183,7 +24183,7 @@
           "bits": [ 88 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "timer_CCU2C_B0_6_COUT": {
@@ -24191,7 +24191,7 @@
           "bits": [ 92 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "timer_CCU2C_B0_7_COUT": {
@@ -24199,7 +24199,7 @@
           "bits": [ 95 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "timer_CCU2C_B0_8_COUT": {
@@ -24207,7 +24207,7 @@
           "bits": [ 98 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "timer_CCU2C_B0_9_COUT": {
@@ -24215,7 +24215,7 @@
           "bits": [ 101 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "timer_CCU2C_B0_COUT": {
@@ -24223,7 +24223,7 @@
           "bits": [ 65 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:74.7-80.4|/usr/bin/../share/yosys/ecp5/cells_sim.v:82.9-82.13"
           }
         },
         "timer_TRELLIS_FF_Q_DI": {
@@ -24231,7 +24231,7 @@
           "bits": [ 106, 82, 86, 87, 84, 85, 69, 70, 66, 67, 78, 79, 76, 77, 73, 74, 104, 105, 102, 103, 99, 100, 96, 97, 93, 94, 90 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "Blinky.v:27.22-27.31|/usr/bin/../share/yosys/ecp5/arith_map.v:34.26-34.27"
+            "src": "Blinky.v:32.22-32.31|/usr/bin/../share/yosys/ecp5/arith_map.v:34.26-34.27"
           }
         },
         "timer_TRELLIS_FF_Q_LSR": {
