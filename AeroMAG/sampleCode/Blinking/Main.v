@@ -1,13 +1,14 @@
 module blinking(
     input clk_25mhz,
-    output [7:0] led
+    output reg [7:0] led
 );
 
     //initialize timer
     reg [23:0] timer;
-    initial timer = 24'd0;
-
-    initial led = 0;g
+    initial begin
+        timer = 24'd0;
+        led = 0;
+    end
 
     //main loop
     always @(posedge clk_25mhz) begin
