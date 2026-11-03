@@ -107,13 +107,21 @@ module enable(
     output reg start
 );
     reg test = 0;
+    reg [28:0] downTime = 0;
+
     initial start = 0;
     always @(posedge clk)begin
-        if(enable && !start)begin
-            start <= 1;
+        if(downTime == 12500000)begin
+            downTime <= 0;
+            if(enable && !start)begin
+                start <= 1;
+            end
+            else if(enable && start)begin
+                start <= 0;
+            end
         end
-        else if(dsable && start)begin
-            start <= 0;
+        else begin
+            downTime <= downTime + 1;
         end
     end
 endmodule
